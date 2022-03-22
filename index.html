@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta Tag -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->
+	<link rel="icon" href="images/favicon.png">
+	<!-- Web Font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+	<!-- Font Awesome Icon-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Thimify Icon-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css">
+	<!-- Title Tag  -->
+	<title>Eshop Ecommerce Website</title>
+	<!-- Style Sheet -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+	<div class="container">
+		<div class="topbar">
+			<div class="topbar-left">
+				<a href="tel:060800801582" class="contact-no"><i class="ti-headphone-alt"></i>+060 (800) 801-582</a>
+				<a href="mailto: support@shophub.com" class="email-address"><i class="ti-email"></i>support@shophub.com</a>
+			</div>
+
+			<div class="topbar-right">
+				<a href="http://maps.google.com/?q=1200 Pennsylvania Ave SE, Washington, District of Columbia, 20003" target="_blank" class="location"><i class="ti-location-pin"></i>Store location</a>
+				<a href="" class="alarm"><i class="ti-alarm-clock"></i>Daily deal</a>
+				<a href="" class="user-man"><i class="ti-user"></i>My account</a>
+				<a href="" class="stop" style="border-right: none;"><i class="ti-power-off"></i>Login</a>
+			</div>
+		</div>
+	</div>
+
+	<header>
+		<div class="container">
+			<div class="main-header">
+				<div class="header-logo"><img src="images/logo.png"></div>
+				
+				<div class="middle-search">
+					<div class="search-category">
+						<a class="dropdown-toggle" href="#"><span id="toggle" class="angle" >all category<i class="ti-angle-down icon-rotate"></i></a></span>
+						<div class="category-drop-down">
+							<ul>
+								<li><a href="#">all category</a></li>
+								<li><a href="#">watch</a></li>
+								<li><a href="#">mobile</a></li>
+								<li><a href="#">kid's item</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="main-searchbar">
+						<form>
+							<input type="text" name="email" id="email" placeholder="search products here.....">
+							<button class="search-btn">
+								<i class="ti-search"></i>
+							</button>
+						</form>
+					</div>
+				</div>
+				<div class="product-icon">
+					<div class="wishlist-icons">
+						<a href="#" class="wish-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+					</div>
+					<div class="wishlist-icons">
+						<a href="#" class="wish-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+					</div>
+					<div class="wishlist-icons shopping-show">
+						<a href="#" class="wish-icon"><i class="ti-bag"></i><span class="bag-count">2</span></a>
+						<div class="shopping-item-popup">
+							<div class="shopping-item-popup-heading">
+								<span>2 items</span>
+								<a href="#">view cart</a>
+							</div>
+							<div class="shopping-item-list">
+								<div class="shopping-item-left-content">
+									<h4><a href="#">women ring</a></h4>
+									<p>1x - $99.00</p>
+									<a href="#" class="cancel"><i class="fa fa-remove"></i></a>
+								</div>
+
+								<div class="shopping-item-right-contnet">
+									<a href="#"><img src="images/product-1.jpg"></a>
+								</div>
+							</div>
+							<div class="shopping-item-list">
+								<div class="shopping-item-left-content">
+									<h4><a href="#">women necklace</a></h4>
+									<p>1x - $35.00</p>
+									<a href="#" class="cancel"><i class="fa fa-remove"></i></a>
+								</div>
+
+								<div class="shopping-item-right-contnet">
+									<a href="#"><img src="images/product-2.jpg"></a>
+								</div>
+							</div>
+							<div class="shopping-item-total-heading">
+								<span>total</span>
+								<p>$134.00</p>
+							</div>
+							<div class="checkout-btn">
+								<a href="#">checkout</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<span class="bars-icon"><a href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars"></i></a></span>
+				<span class="close-icon" id="mobile-close" style="text-align: right;"><a href="javascript: void(0)" onclick="closemenu()"><i class="fa fa-window-close" style="font-size: 35px;"></i></a></span>
+			</div>
+		</div>
+		<nav class="mobile-menu">
+			<div class="container">
+				<div class="nav-menu">
+					<ul id="res-menu">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">product</a></li>
+						<li><a href="#">service</a></li>
+						<li class="new-popup"><a href="#">shop<i class="ti-angle-down"></i></a>
+							<ul class="main-menu-submenu">
+								<li><a href="#">cart</a></li>
+								<li><a href="#">checkout</a></li>
+							</ul>
+						</li>
+						<li><a href="#">pages</a></li>
+						<li><a href="#">blog<i class="ti-angle-down"></i></a>
+							<ul class="main-menu-submenu-child">
+								<li><a href="#">blog single sidebar</a></li>
+							</ul>
+						</li>
+						<li><a href="#">contact us</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<nav>
+			<div class="container">
+				<div class="nav-menu">
+					<div class="categories">
+						<h3><i class="fa fa-bars" aria-hidden="true"></i>categories</h3>
+						<div class="categories-menu">
+							<ul class="main-cat">
+								<li><a href="#">new arrivals<i class="fa fa-angle-right"></i></a>
+									<ul class="sub-cat">
+										<li><a href="#">accessories</a></li>
+										<li><a href="#">best selling</a></li>
+										<li><a href="#">top 100 offer</a></li>
+										<li><a href="#">sunglass</a></li>
+										<li><a href="#">watch</a></li>
+										<li><a href="#">men’s product</a></li>
+										<li><a href="#">ladies</a></li>
+										<li><a href="#">western dress</a></li>
+										<li><a href="#">denim</a></li>
+									</ul>
+								</li>
+								<li><a href="#">best selling<i class="fa fa-angle-right"></i></a>
+									<ul class="uber-menu">
+										<li class="uber-menu-sub">
+											<a class="menu-link" href="#">shop kid's</a>
+											<div class="menu-image">
+												<img src="images/mega-menu1.jpg">
+											</div>
+											<div class="menu-bottom-link">
+												<a href="#">Kids Toys</a>
+												<a href="#">Kids Travel Car</a>
+												<a href="#">Kids Color Shape</a>
+												<a href="#">Kids Tent</a>
+											</div>
+										</li>
+
+										<li class="uber-menu-sub">
+											<a class="menu-link" href="#">shop men's</a>
+											<div class="menu-image">
+												<img src="images/mega-menu2.jpg">
+											</div>
+											<div class="menu-bottom-link">
+												<a href="#">Ladies Shirt</a>
+												<a href="#">Ladies Frog</a>
+												<a href="#">Ladies Sun Glass</a>
+												<a href="#">Ladies Watch</a>
+											</div>
+										</li>
+
+										<li class="uber-menu-sub">
+											<a class="menu-link" href="#">shop women's</a>
+											<div class="menu-image">
+												<img src="images/mega-menu3.jpg">
+											</div>
+											<div class="menu-bottom-link">
+												<a href="#">Kids Toys</a>
+												<a href="#">Kids Travel Car</a>
+												<a href="#">Kids Color Shape</a>
+												<a href="#">Kids Tent</a>
+											</div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">accessories</a></li>
+								<li><a href="#">top 100 offer</a></li>
+								<li><a href="#">sunglass</a></li>
+								<li><a href="#">watch</a></li>
+								<li><a href="#">men’s product</a></li>
+								<li><a href="#">ladies</a></li>
+								<li><a href="#">western dress</a></li>
+								<li><a href="#">denim</a></li>
+							</ul>
+						</div>
+					</div>
+					<ul id="main-menu">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">product</a></li>
+						<li><a href="#">service</a></li>
+						<li class="new-popup"><a href="#">shop<i class="ti-angle-down"></i><span class="n-popup">new</span></a>
+							<ul class="main-menu-submenu">
+								<li><a href="#">cart</a></li>
+								<li><a href="#">checkout</a></li>
+							</ul>
+						</li>
+						<li><a href="#">pages</a></li>
+						<li><a href="#">blog<i class="ti-angle-down"></i></a>
+							<ul class="main-menu-submenu-child">
+								<li><a href="#">blog single sidebar</a></li>
+							</ul>
+						</li>
+						<li><a href="#">contact us</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+
+	<!-- Banner Slider -->
+	<div class="slider">
+		<div class="banner-slide">
+			<div class="container">
+				<div class="banner-content">
+					<h1><span>UP TO 50% OFF </span>Shirt For Men</h1>
+					<p>Maboriosam in a nesciung eget magnae <br> dapibus disting tloctio in the find it pereri <br> odiy maboriosm.</p>
+					<a class="shop-button" href="#">shop now!</a>
+				</div>
+			</div>
+		</div>
+	</div> 
+
+	<!-- Three Boxes -->
+	<div class="boxes">
+		<div class="box-image">
+			<img src="images/mini-banner1.jpg">
+			<div class="box-content">
+				<p>Men's collections</p>
+				<h3>Summer travel <br> collection</h3>
+				<a href="#">discrover now</a>
+			</div>
+		</div>
+		<div class="box-image">
+			<img src="images/mini-banner2.jpg">
+			<div class="box-content">
+				<p>Bag collections</p>
+				<h3>Awesome Bag <br> 2020</h3>
+				<a href="#">shop now</a>
+			</div>
+		</div>
+		<div class="box-image">
+			<img src="images/mini-banner3.jpg">
+			<div class="box-content">
+				<p>Flash sale</p>
+				<h3>Mid Season <br> Up to <span>40%</span> Off</h3>
+				<a href="#">discrover now</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="trending-item">
+			<div class="trending-item-heading">
+				<h2>trending item</h2>
+			</div>
+			<div class="product-filter">
+				<div id="myBtnContainer">
+					<button class="light active" onclick="filterSelection('men')">men</button>
+					<button class="light" onclick="filterSelection('women')">women</button>
+					<button class="light" onclick="filterSelection('kids')">kids</button>
+					<button class="light" onclick="filterSelection('accessories')">accessories</button>
+					<button class="light" onclick="filterSelection('essential')">essential</button>
+					<button class="light" onclick="filterSelection('prices')">prices</button>
+				</div>
+			</div>
+			<div class="products">
+				<div class="product-box-area men essential women kids accessories prices">
+					<div class="product-box">
+						<a href="#">
+							<img class="first-image" src="images/p1.jpg">
+							<img class="second-image" src="images/p2.jpg">
+						</a>
+						<div class="product-smart-icon">
+							<div class="add-to-cart">
+								<a href="#" title="Add to cart">add to cart</a>
+							</div>
+							<div class="smart-action">
+								<a href="#" title="Quick View"><i class="ti-eye"></i><span>quick shop</span></a>
+								<a href="#" title="Wishlist"><i class="ti-heart"></i><span>add to wishlist</span></a>
+								<a href="#" title="Compare"><i class="ti-bar-chart-alt"></i><span>add to compare</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="product-description">
+						<h3><a href="#">women hot collection</a></h3>
+						<div class="pro-price">
+							<span>$29.00</span>
+						</div>
+					</div>
+				</div>
+				
+				<div class="product-box-area women prices kids">
+					<div class="product-box">
+						<a href="#">
+							<img class="first-image" src="images/p3.jpg">
+							<img class="second-image" src="images/p4.jpg">
+						</a>
+						<div class="product-smart-icon">
+							<div class="add-to-cart">
+								<a href="#" title="Add to cart">add to cart</a>
+							</div>
+							<div class="smart-action">
+								<a href="#" title="Quick View"><i class="ti-eye"></i><span>quick shop</span></a>
+								<a href="#" title="Wishlist"><i class="ti-heart"></i><span>add to wishlist</span></a>
+								<a href="#" title="Compare"><i class="ti-bar-chart-alt"></i><span>add to compare</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="product-description">
+						<h3><a href="#">awesome pink show</a></h3>
+						<div class="pro-price">
+							<span>$29.00</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="product-box-area kids women prices">
+					<div class="product-box">
+						<a href="#">
+							<img class="first-image" src="images/p5.jpg">
+							<img class="second-image" src="images/p6.jpg">
+						</a>
+						<div class="product-smart-icon">
+							<div class="add-to-cart">
+								<a href="#" title="Add to cart">add to cart</a>
+							</div>
+							<div class="smart-action">
+								<a href="#" title="Quick View"><i class="ti-eye"></i><span>quick shop</span></a>
+								<a href="#" title="Wishlist"><i class="ti-heart"></i><span>add to wishlist</span></a>
+								<a href="#" title="Compare"><i class="ti-bar-chart-alt"></i><span>add to compare</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="product-description">
+						<h3><a href="#">awesome bags collection</a></h3>
+						<div class="pro-price">
+							<span>$29.00</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="product-box-area accessories kids">
+					<div class="product-box">
+						<a href="#">
+							<img class="first-image" src="images/p7.jpg">
+							<img class="second-image" src="images/p8.jpg">
+							<span class="new">new</span>
+						</a>
+						<div class="product-smart-icon">
+							<div class="add-to-cart">
+								<a href="#" title="Add to cart">add to cart</a>
+							</div>
+							<div class="smart-action">
+								<a href="#" title="Quick View"><i class="ti-eye"></i><span>quick shop</span></a>
+								<a href="#" title="Wishlist"><i class="ti-heart"></i><span>add to wishlist</span></a>
+								<a href="#" title="Compare"><i class="ti-bar-chart-alt"></i><span>add to compare</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="product-description">
+						<h3><a href="#">women pant collectons</a></h3>
+						<div class="pro-price">
+							<span>$29.00</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="product-box-area accessories women kids essential">
+					<div class="product-box">
+						<a href="#">
+							<img class="first-image" src="images/p9.jpg">
+							<img class="second-image" src="images/p10.jpg">
+						</a>
+						<div class="product-smart-icon">
+							<div class="add-to-cart">
+								<a href="#" title="Add to cart">add to cart</a>
+							</div>
+							<div class="smart-action">
+								<a href="#" title="Quick View"><i class="ti-eye"></i><span>quick shop</span></a>
+								<a href="#" title="Wishlist"><i class="ti-heart"></i><span>add to wishlist</span></a>
+								<a href="#" title="Compare"><i class="ti-bar-chart-alt"></i><span>add to compare</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="product-description">
+						<h3><a href="#">awesome bags collection</a></h3>
+						<div class="pro-price">
+							<span>$29.00</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="product-box-area kids women accessories essential">
+					<div class="product-box">
+						<a href="#">
+							<img class="first-image" src="images/p11.jpg">
+							<img class="second-image" src="images/p12.jpg">
+							<span class="off">30%off</span>
+						</a>
+						<div class="product-smart-icon">
+							<div class="add-to-cart">
+								<a href="#" title="Add to cart">add to cart</a>
+							</div>
+							<div class="smart-action">
+								<a href="#" title="Quick View"><i class="ti-eye"></i><span>quick shop</span></a>
+								<a href="#" title="Wishlist"><i class="ti-heart"></i><span>add to wishlist</span></a>
+								<a href="#" title="Compare"><i class="ti-bar-chart-alt"></i><span>add to compare</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="product-description">
+						<h3><a href="#">awesome cap for women</a></h3>
+						<div class="pro-price">
+							<span>$29.00</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="product-box-area women prices accessories essential">
+					<div class="product-box">
+						<a href="#">
+							<img class="first-image" src="images/p13.jpg">
+							<img class="second-image" src="images/p14.jpg">
+						</a>
+						<div class="product-smart-icon">
+							<div class="add-to-cart">
+								<a href="#" title="Add to cart">add to cart</a>
+							</div>
+							<div class="smart-action">
+								<a href="#" title="Quick View"><i class="ti-eye"></i><span>quick shop</span></a>
+								<a href="#" title="Wishlist"><i class="ti-heart"></i><span>add to wishlist</span></a>
+								<a href="#" title="Compare"><i class="ti-bar-chart-alt"></i><span>add to compare</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="product-description">
+						<h3><a href="#">polo dress for women</a></h3>
+						<div class="pro-price">
+							<span>$29.00</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="product-box-area men essential women">
+					<div class="product-box">
+						<a href="#">
+							<img class="first-image" src="images/p15.jpg">
+							<img class="second-image" src="images/p16.jpg">
+							<span class="hot">hot</span>
+						</a>
+						<div class="product-smart-icon">
+							<div class="add-to-cart">
+								<a href="#" title="Add to cart">add to cart</a>
+							</div>
+							<div class="smart-action">
+								<a href="#" title="Quick View"><i class="ti-eye"></i><span>quick shop</span></a>
+								<a href="#" title="Wishlist"><i class="ti-heart"></i><span>add to wishlist</span></a>
+								<a href="#" title="Compare"><i class="ti-bar-chart-alt"></i><span>add to compare</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="product-description">
+						<h3><a href="#">black sunglass for women</a></h3>
+						<div class="pro-price">
+							<span>$29.00</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="purchase-now">
+		<div class="container">
+			<div class="purchase-content">
+				<span>eshop free lite version</span>
+				<h2>Currently You are using free<br> lite Version of Eshop.</h2>
+				<p>Please, purchase full version of the template to get all pages,<br> features and commercial license.</p>
+				<a href="#">Purchase Now</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="product-status">
+			<div class="on-sale">
+				<h1>on sale</h1>
+				<div class="product-item">
+					<div class="product-pic">
+						<img src="images/shop-list1.jpg">
+						<div class="overlay"></div>
+						<a href="#" class="buy-bag"><i class="fa fa-shopping-bag"></i></a>
+					</div>
+					<div class="product-desc">
+						<h4><a href="#">Licity jelly leg flat Sandals</a></h4>
+						<p>$59</p>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="product-pic">
+						<img src="images/shop-list2.jpg">
+						<div class="overlay"></div>
+						<a href="#" class="buy-bag"><i class="fa fa-shopping-bag"></i></a>
+					</div>
+					<div class="product-desc">
+						<h4><a href="#">Licity jelly leg flat Sandals</a></h4>
+						<p>$44</p>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="product-pic">
+						<img src="images/shop-list3.jpg">
+						<div class="overlay"></div>
+						<a href="#" class="buy-bag"><i class="fa fa-shopping-bag"></i></a>
+					</div>
+					<div class="product-desc">
+						<h4><a href="#">Licity jelly leg flat Sandals</a></h4>
+						<p>$89</p>
+					</div>
+				</div>
+			</div>
+			<div class="best-seller">
+				<h1>best seller</h1>
+				<div class="product-item">
+					<div class="product-pic">
+						<img src="images/shop-list4.jpg">
+						<div class="overlay"></div>
+						<a href="#" class="buy-bag"><i class="fa fa-shopping-bag"></i></a>
+					</div>
+					<div class="product-desc">
+						<h4><a href="#">Licity jelly leg flat Sandals</a></h4>
+						<p>$65</p>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="product-pic">
+						<img src="images/shop-list5.jpg">
+						<div class="overlay"></div>
+						<a href="#" class="buy-bag"><i class="fa fa-shopping-bag"></i></a>
+					</div>
+					<div class="product-desc">
+						<h4><a href="#">Licity jelly leg flat Sandals</a></h4>
+						<p>$33</p>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="product-pic">
+						<img src="images/shop-list6.jpg">
+						<div class="overlay"></div>
+						<a href="#" class="buy-bag"><i class="fa fa-shopping-bag"></i></a>
+					</div>
+					<div class="product-desc">
+						<h4><a href="#">Licity jelly leg flat Sandals</a></h4>
+						<p>$77</p>
+					</div>
+				</div>
+			</div>
+			<div class="top-viewed">
+				<h1>top viewed</h1>
+				<div class="product-item">
+					<div class="product-pic">
+						<img src="images/shop-list7.jpg">
+						<div class="overlay"></div>
+						<a href="#" class="buy-bag"><i class="fa fa-shopping-bag"></i></a>
+					</div>
+					<div class="product-desc">
+						<h4><a href="#">Licity jelly leg flat Sandals</a></h4>
+						<p>$22</p>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="product-pic">
+						<img src="images/shop-list8.jpg">
+						<div class="overlay"></div>
+						<a href="#" class="buy-bag"><i class="fa fa-shopping-bag"></i></a>
+					</div>
+					<div class="product-desc">
+						<h4><a href="#">Licity jelly leg flat Sandals</a></h4>
+						<p>$35</p>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="product-pic">
+						<img src="images/shop-list9.jpg">
+						<div class="overlay"></div>
+						<a href="#" class="buy-bag"><i class="fa fa-shopping-bag"></i></a>
+					</div>
+					<div class="product-desc">
+						<h4><a href="#">Licity jelly leg flat Sandals</a></h4>
+						<p>$99</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="blog-section">
+			<div class="blog-heading">
+				<h2>from our blog</h2>
+			</div>
+			<div class="blog-area">
+				<div class="blog-content">
+					<div class="blog-content-single">
+						<img src="images/blog1.jpg">
+						<div class="blog-text-box">
+							<p class="blog-date">22 july , 2020. monday</p>
+							<a href="#" class="blog-title">Sed adipiscing ornare.</a>
+							<a href="#" class="ct-reading">continue reading</a>
+						</div>
+					</div>
+				</div>
+				<div class="blog-content">
+					<div class="blog-content-single">
+						<img src="images/blog2.jpg">
+						<div class="blog-text-box">
+							<p class="blog-date">22 july , 2020. monday</p>
+							<a href="#" class="blog-title">Sed adipiscing ornare.</a>
+							<a href="#" class="ct-reading">continue reading</a>
+						</div>
+					</div>
+				</div>
+				<div class="blog-content">
+					<div class="blog-content-single">
+						<img src="images/blog3.jpg">
+						<div class="blog-text-box">
+							<p class="blog-date">22 july , 2020. monday</p>
+							<a href="#" class="blog-title">Sed adipiscing ornare.</a>
+							<a href="#" class="ct-reading">continue reading</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="service-section">
+		<div class="container">
+			<div class="services">
+				<div class="main-service">
+					<i class="ti-rocket"></i>
+					<h4>free shiping</h4>
+					<p>orders over $100</p>
+				</div>
+
+				<div class="main-service">
+					<i class="ti-reload"></i>
+					<h4>free return</h4>
+					<p>within 30 days returns</p>
+				</div>
+
+				<div class="main-service">
+					<i class="ti-lock"></i>
+					<h4>secure payment</h4>
+					<p>100% secure payment</p>
+				</div>
+
+				<div class="main-service">
+					<i class="ti-tag"></i>
+					<h4>best peice</h4>
+					<p>guaranteed price</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<div class="news-letter">
+			<h4>news letter</h4>
+			<p> Subscribe to our newsletter and get <span>10%</span> off your first purchase</p>
+			<div class="news-form">
+				<form>
+					<input type="text" name="text" placeholder="your email address">
+					<button class="form-bt">subscribe</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer-section">
+		<div class="container">
+			<div class="footer">
+				<div class="footer-first">
+					<a href="#"><img src="images/logo2.png"></a>
+					<p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue,  magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+					<p class="call">got question? call us 24/7<span><a href="tel:123456789">+0123 456 789</a></span></p>
+				</div>
+				<div class="footer-second">
+					<h4>information</h4>
+					<ul>
+						<li><a href="#">about us</a></li>
+						<li><a href="#">faq</a></li>
+						<li><a href="#">terms & conditions</a></li>
+						<li><a href="#">contact us</a></li>
+						<li><a href="#">help</a></li>
+					</ul>
+				</div>
+				<div class="footer-third">
+					<h4>customer service</h4>
+					<ul>
+						<li><a href="#">payment methods</a></li>
+						<li><a href="#">money-back</a></li>
+						<li><a href="#">returns</a></li>
+						<li><a href="#">shipping</a></li>
+						<li><a href="#">privacy policy</a></li>
+					</ul>
+				</div>
+				<div class="footer-fourth">
+					<h4>get in touch</h4>
+					<p>NO. 342 - London Oxford Street<br> .012 United Kingdom.<br> info@eshop.com<br> +032 3456 7890</p>
+					<div class="social">
+						<a href="#"><i class="ti-facebook"></i></a>
+						<a href="#"><i class="ti-twitter"></i></a>
+						<a href="#"><i class="ti-flickr"></i></a>
+						<a href="#"><i class="ti-instagram"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="sub-footer">
+				<p>copyright © 2022-  all rights reserved.</p>
+				<img src="images/payments.png">
+			</div>
+		</div>
+	</div>
+
+
+	<footer>
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="js/custom.js"></script>
+	</footer>
+</body>
+</html>
